@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GYG_Task
+
+  Created by Chun Tak Li on 3/4/2019.
+  Copyright © 2019 Chun Tak Li. All rights reserved.
+*/
+
+"cancel.title" = "Cancel";
+"ok.title" = "OK";
+"sort.title" = "Sorted by";
+"sortByDateAsc.title" = "Oldest published";
+"sortByDateDesc.title" = "Newly published";
+"sortByRatingAsc.title" = "Lowest rating";
+"sortByRatingDesc.title" = "Highest rating";
