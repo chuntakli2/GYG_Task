@@ -13,3 +13,10 @@
 "sortByDateDesc.title" = "Newly published";
 "sortByRatingAsc.title" = "Lowest rating";
 "sortByRatingDesc.title" = "Highest rating";
+"filter.title" = "Filtered by";
+"anyStar.title" = "Any rating";
+"oneStar.title" = "1 star rating";
+"twoStars.title" = "2 stars rating";
+"threeStars.title" = "3 stars rating";
+"fourStars.title" = "4 stars rating";
+"fiveStars.title" = "5 stars rating";

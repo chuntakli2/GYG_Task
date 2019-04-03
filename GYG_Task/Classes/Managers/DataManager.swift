@@ -30,8 +30,8 @@ class DataManager: NSObject {
     
     // MARK: - Public Methods
     
-    func getReviews(count: Int = 10, page: Int = 0, rating: Int = 0, sortBy: SortBy = SortBy.date_of_review, direction: Direction = Direction.desc, callback: @escaping DataResponse) -> Void {
-        let reviewURL = String(format: REVIEW_URL, count, page, rating, sortBy.rawValue, direction.rawValue)
+    func getReviews(count: Int = 10, page: Int = 0, rating: RatingFilter = .any, sortBy: SortBy = .date_of_review, direction: Direction = .desc, callback: @escaping DataResponse) -> Void {
+        let reviewURL = String(format: REVIEW_URL, count, page, rating.rawValue, sortBy.rawValue, direction.rawValue)
         if let url = URL(string: reviewURL) {
             WebManager.sharedInstance.getRequest(urlRequest: URLRequest(url: url)) { (response, statusCode, error) in
                 guard (error == nil) else { callback(0, nil, error); return }
