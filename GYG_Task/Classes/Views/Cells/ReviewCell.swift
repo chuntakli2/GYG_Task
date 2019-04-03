@@ -9,12 +9,12 @@
 import UIKit
 
 class ReviewCell: UITableViewCell {
-    fileprivate var baseView = UIView()
-    var ratingLabel = UILabel()
-    var titleLabel = UILabel()
-    var messageLabel = UILabel()
-    var authorLabel = UILabel()
-    var dateLabel = UILabel()
+    fileprivate let baseView = UIView()
+    let ratingLabel = UILabel()
+    let titleLabel = UILabel()
+    let messageLabel = UILabel()
+    let authorLabel = UILabel()
+    let dateLabel = UILabel()
     
     fileprivate var hasLoadedConstraints = false
     
@@ -112,7 +112,8 @@ class ReviewCell: UITableViewCell {
                          "date": self.dateLabel]
             
             let metrics = ["SPACING": GENERAL_SPACING,
-                           "SMALL_SPACING": SMALL_SPACING]
+                           "SMALL_SPACING": SMALL_SPACING,
+                           "LARGE_SPACING": LARGE_SPACING]
             
             self.contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "|-(SPACING)-[base]-(SPACING)-|", options: .directionMask, metrics: metrics, views: views))
             
@@ -128,7 +129,7 @@ class ReviewCell: UITableViewCell {
 
             self.baseView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "|-(>=SPACING)-[date]-(SPACING)-|", options: .directionMask, metrics: metrics, views: views))
 
-            self.baseView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(SMALL_SPACING)-[rating]-(SMALL_SPACING)-[title]-(SMALL_SPACING)-[message]-(SMALL_SPACING)-[author]-(SMALL_SPACING)-[date]-(SMALL_SPACING)-|", options: .directionMask, metrics: metrics, views: views))
+            self.baseView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-(SMALL_SPACING)-[rating]-(SPACING)-[title]-(SMALL_SPACING)-[message]-(SPACING)-[author]-(LARGE_SPACING)-[date]-(SMALL_SPACING)-|", options: .directionMask, metrics: metrics, views: views))
 
             self.hasLoadedConstraints = true
         }
