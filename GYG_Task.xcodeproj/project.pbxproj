@@ -16,15 +16,15 @@
 		D73737652253CF060093E38D /* GYG_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73737642253CF060093E38D /* GYG_TaskUITests.swift */; };
 		D73737832253D0E10093E38D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73737782253D0E10093E38D /* DataManager.swift */; };
 		D73737862253D0E10093E38D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D737377E2253D0E10093E38D /* BaseViewController.swift */; };
-		D73737872253D0E10093E38D /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D737377F2253D0E10093E38D /* BaseNavigationController.swift */; };
 		D737378B2253D11C0093E38D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D737378A2253D11C0093E38D /* Common.swift */; };
 		D737378F2253D1730093E38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D737378E2253D1730093E38D /* Assets.xcassets */; };
 		D73737912253D1BA0093E38D /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73737902253D1BA0093E38D /* ReviewViewController.swift */; };
 		D765590C2253E1F6003275B6 /* WebManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D765590B2253E1F6003275B6 /* WebManager.swift */; };
 		D765590E2253E87B003275B6 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D765590D2253E87B003275B6 /* UIColor+Utils.swift */; };
 		D76559102253EFC0003275B6 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = D765590F2253EFC0003275B6 /* Review.swift */; };
-		D76559122253FB7C003275B6 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76559112253FB7C003275B6 /* ReviewCell.swift */; };
 		D7655914225421B2003275B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7655913225421B2003275B6 /* Localizable.strings */; };
+		D7C943DA2255393100873D7A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C943D92255393100873D7A /* BaseNavigationController.swift */; };
+		D7C943E02255396300873D7A /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C943DF2255396300873D7A /* ReviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,15 +64,15 @@
 		D73737662253CF060093E38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D73737782253D0E10093E38D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		D737377E2253D0E10093E38D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		D737377F2253D0E10093E38D /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		D737378A2253D11C0093E38D /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		D737378E2253D1730093E38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D73737902253D1BA0093E38D /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		D765590B2253E1F6003275B6 /* WebManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebManager.swift; sourceTree = "<group>"; };
 		D765590D2253E87B003275B6 /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
 		D765590F2253EFC0003275B6 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
-		D76559112253FB7C003275B6 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		D7655913225421B2003275B6 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D7C943D92255393100873D7A /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		D7C943DF2255396300873D7A /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		DF912DB3C70BE48F80747003 /* Pods_GYG_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYG_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CE57C630DE74ECB47501CB /* Pods-GYG_Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYG_Task.release.xcconfig"; path = "Target Support Files/Pods-GYG_Task/Pods-GYG_Task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,7 +175,9 @@
 				D73737772253D0E10093E38D /* Managers */,
 				D737377B2253D0E10093E38D /* Models */,
 				D737377C2253D0E10093E38D /* Extensions */,
+				D7C943D82255393100873D7A /* NavigationControllers */,
 				D737377D2253D0E10093E38D /* ViewControllers */,
+				D7C943DE2255396300873D7A /* Cells */,
 				D73737802253D0E10093E38D /* Views */,
 			);
 			path = Classes;
@@ -210,7 +212,6 @@
 			isa = PBXGroup;
 			children = (
 				D737377E2253D0E10093E38D /* BaseViewController.swift */,
-				D737377F2253D0E10093E38D /* BaseNavigationController.swift */,
 				D73737902253D1BA0093E38D /* ReviewViewController.swift */,
 			);
 			path = ViewControllers;
@@ -219,17 +220,8 @@
 		D73737802253D0E10093E38D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D73737812253D0E10093E38D /* Cells */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		D73737812253D0E10093E38D /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				D76559112253FB7C003275B6 /* ReviewCell.swift */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		D737378C2253D1350093E38D /* Supporting Files */ = {
@@ -249,6 +241,22 @@
 				D737378E2253D1730093E38D /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		D7C943D82255393100873D7A /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7C943D92255393100873D7A /* BaseNavigationController.swift */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		D7C943DE2255396300873D7A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D7C943DF2255396300873D7A /* ReviewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		D8E0A4FD3D1A0BD7EDCA08B8 /* Frameworks */ = {
@@ -494,15 +502,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D765590E2253E87B003275B6 /* UIColor+Utils.swift in Sources */,
+				D7C943E02255396300873D7A /* ReviewCell.swift in Sources */,
 				D73737862253D0E10093E38D /* BaseViewController.swift in Sources */,
-				D73737872253D0E10093E38D /* BaseNavigationController.swift in Sources */,
 				D73737452253CF040093E38D /* AppDelegate.swift in Sources */,
 				D73737832253D0E10093E38D /* DataManager.swift in Sources */,
 				D76559102253EFC0003275B6 /* Review.swift in Sources */,
 				D765590C2253E1F6003275B6 /* WebManager.swift in Sources */,
 				D73737912253D1BA0093E38D /* ReviewViewController.swift in Sources */,
 				D737378B2253D11C0093E38D /* Common.swift in Sources */,
-				D76559122253FB7C003275B6 /* ReviewCell.swift in Sources */,
+				D7C943DA2255393100873D7A /* BaseNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
