@@ -1,0 +1,39 @@
+# Git ignore file
+
+# Mac OS X Finder and whatnot
+.DS_Store
+.Trashes
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# Pod text files
+Pods/*.txt
+
+# iOS Projects #
+
+# Build products
+*.[o]
+
+# Automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+# Automatic user setting files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
